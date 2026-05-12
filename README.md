@@ -6,6 +6,14 @@ Viewing the live video feed from a cheap USB Endoscope with the name “SuperCam
 This is an experimental Python viewer for a non-UVC USB endoscope sold under various “SuperCamera”/Geek-Szitman-style names. 
 It was pulled together from observed USB behaviour, and is only known to work with devices exposing VID:PID 2ce3:3828 with bulk endpoints 0x82/0x02.
 
+## Tested platforms (in May 2026)
+- Windows 11 PC
+- Raspberry Pi 5
+
+## Note about resolution
+This camera is marketed as “1920 HD”, suggesting a still-image resolution around 1920 × 1440. When used with a phone app, saved images may indeed report this resolution, but this appears to be upsampled rather than the native stream resolution.
+The raw video stream decoded by this script is 320 × 240 YUY2/YUYV. This may be too low for many applications, especially where fine detail is required.
+
 ## Tested device
 - VID:PID: 2ce3:3828
 - Reported/marketed as Geek/Szitman/SuperCamera-style endoscope
