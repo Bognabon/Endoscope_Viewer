@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Camera captures, raw dumps, and generated test outputs
+captures/
+*.bin
+dump*.bin
+supercamera_raw.bin
+
+# Local generated videos / ad-hoc captures
+*.avi
+*.mp4
+*.mov
