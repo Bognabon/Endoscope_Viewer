@@ -14,6 +14,10 @@ It was pulled together from observed USB behaviour, and is only known to work wi
 - Bulk OUT: 0x02
 - Actual decoded stream: 320x240 YUY2/YUYV
 - Purchased from amazon: https://www.amazon.co.uk/dp/B0CZHT2VHS/?coliid=I1HCGW7DOA3MOP&colid=1VVKZQ9NPBSBT&ref_=list_c_wl_lv_ov_lig_dp_it&th=1 with item name: Endoscope Inspection Camera, Ennovor 1920 HD Flexible Rigid Snake Inspection Camera, 8 LED Lights No WiFi Endoscope, IP67 Waterproof Sink Pipe Drain Borescope, Android iOS (Single-lens 5m)
+- 
+![Endoscope camera](docs/images/Endoscope_camera.jpeg)
+
+![Endoscope camera box](docs/images/Endoscope_camera_box.jpeg)
 
 ## What this does
 - Sends getinfo control transfer
