@@ -222,6 +222,8 @@ captures/
 *.bin
 dump*.bin
 supercamera_raw.bin
+*.png
+!docs/images/*.png
 
 # Local generated videos / ad-hoc captures
 *.avi
