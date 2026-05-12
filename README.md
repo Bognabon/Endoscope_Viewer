@@ -46,5 +46,9 @@ python endoscope_viewer.py
 - Not a UVC webcam
 - Other devices may differ
 
+## Windows note
+- On Windows, PyUSB may need access to `libusb-1.0.dll`. Download/install a matching 64-bit libusb build if using 64-bit Python, and either place it somewhere on your PATH or edit `LIBUSB_PATH` in the script.
+- You may also need to use Zadig to bind the camera interface to WinUSB/libusb.
+
 ## Disclaimer
 Experimental, no warranty, use at your own risk.
