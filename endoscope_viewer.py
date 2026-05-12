@@ -53,7 +53,7 @@ LIBUSB_PATH = None
 
 SAVE_DIR = Path("captures")
 
-DEBUG = True
+DEBUG = False
 
 WINDOW_NAME = "SuperCamera YUY2"
 WINDOW_W = 640
