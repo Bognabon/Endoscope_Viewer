@@ -29,7 +29,7 @@ The raw video stream decoded by this script is 320 × 240 YUY2/YUYV. This may be
 ## What this does
 - Sends getinfo control transfer
 - Sends camera_up control transfer
-- Reads Android-style 154112-byte blocks
+- Reads 154112-byte blocks
 - Decodes 153600-byte frames as 320x240 YUY2
 - Displays live video using OpenCV
 - Can save PNG frames
